@@ -21,3 +21,12 @@ else
 	fi;
 fi;
 unset doIt;
+
+###############################################################################
+# Sublime Text                                                                #
+##############################################################################
+
+# Install Sublime Text settings
+cp  -r ~/init/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/. 2> /dev/null
+cp  -r ~/init/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/. 2> /dev/null
+cp  -r ~/init/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/. 2> /dev/null

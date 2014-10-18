@@ -1,0 +1,19 @@
+{
+  "installed_packages":
+  [
+    "Alignment",
+    "All Autocomplete",
+    "ApplySyntax",
+    "CTags",
+    "File Navigator",
+    "Git",
+    "GitGutter-Edge",
+    "Google Spell Check",
+    "GoRazor",
+    "Handlebars",
+    "RSpec",
+    "rspec-snippets",
+    "SideBarEnhancements"
+  ]
+}
+

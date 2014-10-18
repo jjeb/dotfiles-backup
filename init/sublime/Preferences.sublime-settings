@@ -1,0 +1,82 @@
+{
+  "auto_complete": true,
+  "detect_slow_plugins": false,
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    ".tags*",
+    ".idea*",
+    ".vegas*",
+    ".woff",
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    "*.class",
+    "*.psd",
+    "*.db",
+    "*.pdf",
+    "chromedriver.log",
+    "*.xlsl",
+    "*.gem"
+  ],
+  "folder_exclude_patterns":
+  [
+    "data",
+    ".git",
+    ".svn",
+    ".hg",
+    "CVS",
+    ".sass-cache",
+    ".bundle",
+    ".rbx",
+    "bin",
+    "tmp",
+    "log",
+    ".idea",
+    ".vegas"
+  ],
+  "font_face": "monaco",
+  "font_size": 18.0,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "GoSublime",
+    "Highlight Whitespaces"
+  ],
+  "line_padding_bottom": 0.5,
+  "line_padding_top": 0.5,
+  "new_window_settings":
+  {
+    "show_minimap": true
+  },
+  "remember_open_files": true,
+  "rulers":
+  [
+    120,
+    140
+  ],
+  "save_on_focus_lost": true,
+  "soda_classic_tabs": true,
+  "soda_folder_icons": true,
+  "sublimelinter_delay": 400,
+  "tab_size": 2,
+  "trailing_spaces_highlight_color": "#F00",
+  "trailing_spaces_save_after_trim": true,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}
