@@ -5,6 +5,7 @@ export EDITOR="vim";
 export HISTSIZE=32768;
 export HISTFILESIZE=$HISTSIZE;
 export HISTCONTROL=ignoredups;
+
 # Make some commands not show up in history
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
 
@@ -21,7 +22,6 @@ export MANPAGER="less -X";
 # Always enable colored `grep` output
 export GREP_OPTIONS="--color=auto";
 
-#Homebrew exports
 #rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

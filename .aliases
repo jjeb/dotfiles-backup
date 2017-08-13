@@ -12,8 +12,7 @@ alias dt="cd ~/Desktop"
 alias g="git"
 alias h="history"
 alias j="jobs"
-alias modcloth="cd ~/workspace/modcloth/; ls"
-alias workspace="cd ~/workspace/; ls"
+
 #development
 alias be="bundle exec"
 
