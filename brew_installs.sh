@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-formulas=("git" "wget" "rbenv" "ruby-build" \
+formulas=("git" "wget" "rbenv"  \
 "percona-server" "postgresql"  \
-"sqlite" "redis" "nvm" "imagemagick" \
-"bash-completion" "ruby-completion" "gnu-typist" "yarn")
+"bash-completion" "ruby-completion" \
+"gnu-typist" "yarn" "tmux")
 
 function brewing(){
   read -p "Brewing $1. Are you sure? (y/n) " -n 1;
@@ -18,7 +18,7 @@ function brewing(){
 read -p "Installing Brew. Are you sure? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   for i in "${formulas[@]}"
     do
       brewing $i
