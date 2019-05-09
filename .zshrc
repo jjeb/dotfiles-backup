@@ -62,7 +62,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git bundler)
+plugins=(git bundler rails)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,10 +94,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#Rails Specific
+alias rspec='nocorrect rspec'
+alias brs='be rspec'
+alias brc='be rails console'
+
+#General
+alias galiasgrep='alias | grep -i git | sort -R | grep'
+alias raliasgrep='alias | grep -i rails | sort -R | grep'
+alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
+#PATH
 export PATH="/usr/local/sbin:$PATH"
-
 setopt histignorespace
-
 export NVM_DIR="$HOME/.nvm"
-
 . "/usr/local/opt/nvm/nvm.sh"
